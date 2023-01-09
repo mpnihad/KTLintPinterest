@@ -1,10 +1,11 @@
+@file:Suppress("ktlint")
+
 package com.nihad.ktlintpinterest
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.*
+import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
-
+class MainActivity : AppCompatActivity() { // ksjahcksj
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

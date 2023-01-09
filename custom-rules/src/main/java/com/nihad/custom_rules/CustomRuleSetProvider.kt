@@ -16,7 +16,7 @@ public class CustomRuleSetProvider : RuleSetProviderV2(id=CUSTOM_RULE_SET_ID, ab
 )) {
     override fun getRuleProviders(): Set<RuleProvider> {
         return setOf(
-            RuleProvider { NoVarRule() },
+            RuleProvider { IgnoreFileRule() },
         )
     }
 
