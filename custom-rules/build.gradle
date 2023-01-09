@@ -1,0 +1,20 @@
+
+plugins {
+    id "kotlin"
+    id "java-library"
+//    id "maven"
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.7.10"
+    compileOnly "com.pinterest.ktlint:ktlint-core:0.48.1"
+    testImplementation "junit:junit:4.12"
+    testImplementation "org.assertj:assertj-core:3.12.2"
+    testImplementation "com.pinterest.ktlint:ktlint-core:0.48.1"
+    testImplementation "com.pinterest.ktlint:ktlint-test:0.36.0"
+}
+
